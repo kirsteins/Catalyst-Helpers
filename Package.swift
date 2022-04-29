@@ -6,6 +6,6 @@ let package = Package(
         .library(name: "CatalystHelpers", targets: ["CatalystHelpers"]),
     ],
     targets: [
-        .target(name: "CatalystHelpers"),
+        .target(name: "SwiftLeePackage", dependencies: ["objc"]),
     ]
 )

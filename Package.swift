@@ -8,6 +8,6 @@ let package = Package(
         .library(name: "CatalystHelpers", targets: ["CatalystHelpers"]),
     ],
     targets: [
-        .target(name: "SwiftLeePackage", dependencies: ["objc"]),
+        .target(name: "CatalystHelpers", dependencies: ["objc"]),
     ]
 )
